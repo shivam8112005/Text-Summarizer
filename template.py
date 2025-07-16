@@ -9,7 +9,7 @@ project_name = "textsummarizer"
 
 list_of_files = [
     "./github/workflows/.gitkeep",
-    f"src/{project_name}__init__.py", #the folder in which __init__.py exists would be the local package and we can import any other package from outside of it.
+    f"src/{project_name}/__init__.py", #the folder in which __init__.py exists would be the local package and we can import any other package from outside of it.
     f"src/{project_name}/components/__init__.py", # here componenets would be our another local package
     f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py",
